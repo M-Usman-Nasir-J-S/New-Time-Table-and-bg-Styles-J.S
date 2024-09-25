@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .d-flex{
+            display: flex;
+        }
+
+        .justify-center{
+            justify-content: center;
+        }
+
+        .gap-20{
+            gap: 20px;
+        }
+
+        .center{
+            text-align: center;
+        }
+        
+        .px-25{
+            padding: 25px 0px;
+        }
+
+        .flex-wrap{
+            flex-wrap: wrap;
+        }
+
+        .border{
+            border: 5px dashed black;
+        }
+    </style>
+</head>
+<body>
+    
+    
+    
+<h1 class="center px-25 border">New Time Table & Background Styles</h1>
+
+
+    <h2 class="center px-25">New Time Table</h2>
+
+
+
+    <div class="d-flex gap-20 flex-wrap px-25 justify-center">
+
+
+        <input type="number" placeholder="Entre Table Number" id="t_number">
+    
+        <input type="number" placeholder="Entre How many Time" id="quantity">
+    
+        <button onclick="table()">Get Table</button>
+    
+        <button onclick="empty()">Clear</button>
+    
+    
+    </div>
+
+
+<h3 id="output" class="center"></h3>
+
+
+<hr>
+
+
+
+
+<h2 class="center px-25">Colours Styling</h2>
+
+
+
+<p class="center px-25">Brother you want a Background Colour on your page ! <br /> So click on these
+
+buttons and applied Colour on the page. <br /> Which Colour you want on your page ? </p>
+
+
+
+
+<div id="arr" class="d-flex justify-center gap-20 flex-wrap"></div>
+
+
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
